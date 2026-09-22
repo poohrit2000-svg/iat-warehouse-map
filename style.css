@@ -1,7 +1,7 @@
 body{
-    font-family: Arial, sans-serif;
     margin:0;
-    background:#f4f4f4;
+    background:#f4f6f9;
+    font-family:Tahoma,sans-serif;
 }
 
 header{
@@ -11,7 +11,7 @@ header{
     text-align:center;
 }
 
-.container{
+#warehouse-list{
     max-width:1200px;
     margin:auto;
     padding:20px;
@@ -19,8 +19,18 @@ header{
 
 .card{
     background:white;
-    padding:20px;
-    margin-bottom:20px;
     border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+    padding:15px;
+    margin-bottom:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.1);
+}
+
+.card h3{
+    margin-top:0;
+    color:#003366;
+}
+
+.phone{
+    color:#009933;
+    font-weight:bold;
 }
