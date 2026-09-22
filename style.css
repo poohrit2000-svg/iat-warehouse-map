@@ -1,21 +1,26 @@
-body {
+body{
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background: #f5f5f5;
+    margin:0;
+    background:#f4f4f4;
 }
 
-h1 {
-    color: #003366;
-    text-align: center;
+header{
+    background:#003366;
+    color:white;
+    padding:20px;
+    text-align:center;
 }
 
-p {
-    text-align: center;
-    font-size: 18px;
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding:20px;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
+.card{
+    background:white;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
 }
